@@ -146,6 +146,10 @@ public class Codegen extends AspNetCoreServerCodegen  {
     @Override
     public boolean shouldOverwrite(String fileName)
     {
+        if(fileName.contains(("Models")))
+        {
+            return true;
+        }
         if(fileName.contains("Api") && !fileName.contains("Abstract"))
         {
             //don't overwrite implementations
