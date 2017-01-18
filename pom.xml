@@ -5,7 +5,7 @@
   <artifactId>swagger-gen-aspnetcore</artifactId>
   <packaging>jar</packaging>
   <name>swagger-gen-aspnetcore</name>
-  <version>0.8.0-SNAPSHOT</version>
+  <version>0.9.0-SNAPSHOT</version>
   <prerequisites>
     <maven>2.2.0</maven>
   </prerequisites>
@@ -95,14 +95,15 @@
     </dependency>
   </dependencies>
   <properties>
-    <swagger-codegen-version>2.2.2-SNAPSHOT</swagger-codegen-version>
+    <swagger-codegen-version>2.2.1</swagger-codegen-version>
     <maven-plugin-version>1.0.0</maven-plugin-version>
     <junit-version>4.8.1</junit-version>
   </properties>
 
   <distributionManagement>
     <repository>
-      <id>bintray-repo-dmunch-swagger</id>
+      <id>dmunch-swagger</id>
+      <name>dmunch-swagger</name>
       <url>https://api.bintray.com/maven/dmunch/swagger/swagger-gen-aspnetcore/;publish=1</url>
     </repository>
   </distributionManagement>
