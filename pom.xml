@@ -5,7 +5,7 @@
   <artifactId>swagger-gen-aspnetcore</artifactId>
   <packaging>jar</packaging>
   <name>swagger-gen-aspnetcore</name>
-  <version>0.9.0-SNAPSHOT</version>
+  <version>0.9.1</version>
   <prerequisites>
     <maven>2.2.0</maven>
   </prerequisites>

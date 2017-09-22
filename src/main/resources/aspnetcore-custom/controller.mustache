@@ -18,7 +18,7 @@ namespace {{packageName}}.Controllers{{namespace}}
     public class {{classname}}Api : Abstract.{{classname}}Api
     { {{#operation}}
 
-        public async {{#returnType}}Task<IActionResult>{{/returnType}}{{^returnType}}Task{{/returnType}} {{operationId}}Async({{#allParams}}{{>pathParam}}{{>queryParam}}{{>bodyParam}}{{>formParam}}{{>headerParam}}{{#hasMore}}, {{/hasMore}}{{/allParams}})
+        public override async {{#returnType}}Task<IActionResult>{{/returnType}}{{^returnType}}Task{{/returnType}} {{operationId}}Async({{#allParams}}{{>pathParam}}{{>queryParam}}{{>bodyParam}}{{>formParam}}{{>headerParam}}{{#hasMore}}, {{/hasMore}}{{/allParams}})
         {
             throw new NotImplementedException();
         }
