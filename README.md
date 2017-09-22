@@ -25,8 +25,10 @@ Check out the obligatory [petshop example](example/petshop) in the repository.
 
 ## Build
 
-swagger-gen-aspnetcore now depends on version 2.2.1 of [swagger-codegen](https://github.com/swagger-api/swagger-codegen/). Go into the source directroy and run `mvn install` to build and install
-swagger-gen-aspnetcore into your local `.m2` directory. A packaged version on Bintray will follow.
+swagger-gen-aspnetcore now depends on version 2.2.1 of [swagger-codegen](https://github.com/swagger-api/swagger-codegen/). Go into the source directory and run `mvn install` to build and install
+swagger-gen-aspnetcore into your local `.m2` directory.
+
+Packaged versions starting from 0.9.1 are available on Bintray.
 
 ## What's Swagger?
 The goal of Swagger™ is to define a standard, language-agnostic interface to REST APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined via Swagger, a consumer can understand and interact with the remote service with a minimal amount of implementation logic. Similar to what interfaces have done for lower-level programming, Swagger removes the guesswork in calling the service.
